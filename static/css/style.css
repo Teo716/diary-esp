@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body::-webkit-scrollbar {
     width: 12px;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #0F172A;        /* el color de la zona de seguimiento */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgba(30, 41, 59, 0.4);    /* el color de la barra de desplazamiento */
-    border-radius: 20px;       /* la redondez de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #DBECF6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(158, 183, 206, 0.4);
+    border-radius: 20px;
     border: none;
-  }
-
-
-
+}
 
 body {
     margin: 0;
@@ -22,14 +20,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-color: #0F172A;
-    color: #F8FAFC;
+    background-color: #DBECF6;
+    color: #4D4C4A;
 }
 
 h1, h2, p {
     margin: 0;
 }
-
 
 img {
     object-fit: contain;
@@ -61,7 +58,6 @@ ul {
     gap: 20px;
 }
 
-
 .main__title {
     font-size: 40px;
     text-align: center;
@@ -82,10 +78,10 @@ ul {
     width: 350px;
     height: 500px;
     transition: 0.2s;
-    background: rgba(30, 41, 59, 0.4);
+    background-color: #9EB7CE;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-
+    border: none;
 }
 
 .card__link {
@@ -97,7 +93,7 @@ ul {
 }
 
 .card__text {
-    border-top: 1px solid rgba(14, 165, 233, 1);
+    border-top: 1px solid #896D5D;
     width: inherit;
     display: flex;
     padding: 50px 0 20px;
@@ -110,10 +106,10 @@ ul {
     padding: 0 20px;
     text-align: center;
 }
+
 .card__subtitle {
     padding: 0 20px;
     text-align: center;
-
 }
 
 .card__img {
@@ -131,7 +127,8 @@ ul {
 
 .card--creat:hover,
 .card:hover {
-    box-shadow: 0px 4px 10px rgba(14, 165, 233, 1);
+    box-shadow: 0px 4px 10px #896D5D;
+    border: 1px solid #896D5D;
 }
 
 .creat-form {
@@ -150,9 +147,10 @@ ul {
     gap: 30px;
     flex-direction: column;
     align-items: center;
-    background: rgba(30, 41, 59, 0.4);
+    background-color: #9EB7CE;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 .form__inputs {
@@ -168,11 +166,11 @@ ul {
 }
 
 .form__input {
-    background: #0F172A;
+    background-color: #DBECF6;
     border-radius: 10px;
     padding: 10px;
     height: 30px;
-    color: #F8FAFC;
+    color: #4D4C4A;
     font: inherit;
     border: none;
     width: 94%;
@@ -183,20 +181,20 @@ ul {
 }
 
 .form__text {
-    background: #0F172A;
+    background-color: #DBECF6;
     border-radius: 10px;
     padding: 10px;
-    color: #F8FAFC;
+    color: #4D4C4A;
     font: inherit;
     border: none;
     width: 94%;
 }
 
 .form__button {
-    border: 1px solid rgba(14, 165, 233, 1);
-    background: #0F172A;
+    border: 1px solid #896D5D;
+    background-color: #DBECF6;
     border-radius: 10px;
-    color: rgba(14, 165, 233, 1);
+    color: #896D5D;
     padding: 10px;
     font: inherit;
     width: 200px;
@@ -206,8 +204,8 @@ ul {
 }
 
 .form__button:hover {
-    color: #F8FAFC;
-    background:  rgba(14, 165, 233, 1);
+    color: #4D4C4A;
+    background-color: #D3D0AA;
 }
 
 .main {
@@ -215,13 +213,14 @@ ul {
 }
 
 .main__block {
-    background: rgba(30, 41, 59, 0.4);
+    background-color: #9EB7CE;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: none;
 }
 
 .main__subtitle {
@@ -238,10 +237,10 @@ ul {
 
 .main__link {
     display: block;
-    border: 1px solid rgba(14, 165, 233, 1);
-    background: #0F172A;
+    border: 1px solid #896D5D;
+    background-color: #DBECF6;
     border-radius: 10px;
-    color: rgba(14, 165, 233, 1);
+    color: #896D5D;
     padding: 15px 10px;
     font: inherit;
     width: 200px;
@@ -251,10 +250,9 @@ ul {
 }
 
 .main__link:hover {
-    color: #F8FAFC;
-    background:  rgba(14, 165, 233, 1);
+    color: #4D4C4A;
+    background-color: #D3D0AA;
 }
-
 
 .main-login {
     display: flex;
@@ -269,16 +267,15 @@ ul {
     gap: 30px;
     flex-direction: column;
     align-items: center;
-    background: rgba(30, 41, 59, 0.4);
+    background-color: #9EB7CE;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
 }
-
 
 .login label {
     width: 60%;
 }
-
 
 .reg__link {
     height: fit-content;
@@ -288,9 +285,9 @@ ul {
 
 .error {
     font-size: 10px;
-    color: #fff;
+    color: #896D5D;
 }
 
 .login__link:hover {
-    color: rgba(14, 165, 233, 1);
+    color: #D3D0AA;
 }
